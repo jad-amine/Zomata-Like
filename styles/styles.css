@@ -71,6 +71,12 @@ nav li {
    padding: 15px 35px;
 }
 
+/*Modifying the super hungry upon hovering*/
+#Super_Hungry:hover {
+   background-color: white;
+   color:#82b440;
+} 
+
 /*Styling the slogan search by typing or category section*/
 .slogan-want-container{
    display: flex;
