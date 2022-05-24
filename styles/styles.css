@@ -1,3 +1,72 @@
-h2{
-   color: red;
+/* CSS Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+   background-image: url(/public/welcome.jpg);
+   height: 130vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+.banner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #262626;
+   height: 9vh;
+   border-bottom: 2px solid black;
+}
+
+.banner button{
+   margin-right: 2%;
+   background-color: #82b440;
+   height: 6vh;
+   width: 9%;
+   border-radius: 8px;
+   color: white;
+   box-shadow: 0px 0px 2px #95d048;
+}
+
+.banner button:hover{
+   background-color: #95d048;
+   cursor:pointer;
+}
+
+.banner div{
+   margin-left: 2%;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 45px;
+}
+
+.logo{
+   margin-left: 2%;
+}
+
+nav ul{
+   display: flex;
+   list-style: none;
+}
+
+nav li {
+   margin: 0px 25px;
+   font-weight: bold;
+}
+
+#Super_Hungry{
+   color: white;
+   border-radius: 30px;
+   border: 2px solid white;
+   text-decoration: none;
+   padding: 15px 35px;
 }
