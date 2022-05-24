@@ -70,3 +70,30 @@ nav li {
    text-decoration: none;
    padding: 15px 35px;
 }
+
+/*Styling the slogan search by typing or category section*/
+.slogan-want-container{
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+}
+
+.slogan{
+   padding: 20vh 0vh 2.5vh 20vh;
+   font-size: 48px;
+}
+
+.want{
+   margin: 5vh 20vh;
+   font-size: 36px;
+   color: white;
+   background-color:rgba(112, 128, 144, 0.175);
+   border-radius: 30px;
+   border: 2px solid ;
+   text-decoration: none;
+   padding: 15px 35px; 
+}
+
+.categories{
+  cursor: pointer; 
+}
