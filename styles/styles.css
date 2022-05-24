@@ -103,3 +103,23 @@ nav li {
 .categories{
   cursor: pointer; 
 }
+
+/*Styling the restaurant category section*/
+#restaurant-category{
+   margin-top: 80px;
+}
+#restaurant-category-header{
+   text-align: center;
+   font-size: 48px;
+
+}
+.restaurant-category-imgs{
+   display: flex;
+   flex-direction: column;
+}
+
+.restaurant-category-imgs>div{
+   margin: 5px;
+   justify-content: space-between;
+   width: 50%;
+}
