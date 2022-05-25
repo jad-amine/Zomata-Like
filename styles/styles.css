@@ -186,7 +186,7 @@ header select{
 /*Styling the mobile application section*/
 #tasty-mobile-app{
    display: flex;
-   margin-top: 30px ;
+   margin-top: 15% ;
    background-color: blanchedalmond;
 }
 #tasty-mobile-app>div{
