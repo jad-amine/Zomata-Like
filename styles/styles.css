@@ -279,6 +279,18 @@ header select{
    cursor: pointer;
 }
 
+/*Footer section*/
+.footer{
+   padding: 2.5% 5%;
+   display: flex;
+   background-color:rgb(251, 240, 222);
+   justify-content: space-between;
+}
+.footer-para{
+   font-size: 30px;
+   font-weight: bold;
+}
+
 /*-----------------------------------------
 
 /*Media Query*/
