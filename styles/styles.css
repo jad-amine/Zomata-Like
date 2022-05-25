@@ -85,19 +85,21 @@ nav li {
 }
 
 .slogan{
-   padding: 20vh 0vh 2.5vh 20vh;
+   padding: 20vh 0vh 2.5vh 0vh;
+   width: 60%;
+   margin-left: 4%;
    font-size: 48px;
 }
 
 .want{
-   margin: 5vh 20vh;
+   margin-top: 10vh;
    font-size: 36px;
    color: white;
-   background-color:rgba(112, 128, 144, 0.175);
+   background-color:rgba(112, 128, 144, 0);
    border-radius: 30px;
-   border: 2px solid ;
+   border: 2px solid white;
    text-decoration: none;
-   padding: 15px 35px; 
+   padding: 10px 10px; 
 }
 
 .categories{
@@ -113,13 +115,21 @@ nav li {
    font-size: 48px;
 
 }
-.restaurant-category-imgs{
+
+.welcome-search{
    display: flex;
-   flex-direction: column;
+   justify-content: center;
 }
 
-.restaurant-category-imgs>div{
-   margin: 5px;
-   justify-content: space-between;
-   width: 50%;
+
+.Resto{
+   width: 20%;
+   height: 100%;
+   border-radius: 40px;
+}
+
+.first-row{
+   display: flex;
+   margin-top: 30px;
+   flex-wrap: wrap;
 }

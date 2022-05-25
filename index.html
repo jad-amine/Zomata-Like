@@ -9,6 +9,9 @@
 </head>
 <body>
 
+
+   <!-- Add animation on loading page // SetTimeout first  -->
+
    <header>
       <div class="banner">
          <div class="partner">SE Factory Partner's</div>
@@ -32,9 +35,18 @@
       <!--Adding the slogan + search by typing or category-->
       <section class="slogan-want-container">
          <h1 class="slogan">Your favorite foods in one place</h1>
-         <input type="text" class="want" placeholder="I want to make.." >
-         <!--Note: categories must be added-->
-         <button class="categories want ">Categories</button>
+         <div class="welcome-search">
+            <input type="text" class="want" placeholder="I want to make.." >
+            <!--Note: categories must be added-->
+            <select name="food-categories" class="want" id="food-categories">
+               <option value="Burgers">Burgers</option>
+               <option value="Pizza">Pizza</option>
+               <option value="Salads">Salads</option>
+               <option value="Asian">Asian</option>
+               <option value="Drinks">Drinks</option>
+            </select>
+            
+         </div>
        </section>
    </header>
 
@@ -43,29 +55,33 @@
    <section id="restaurant-category">
       <h1 id="restaurant-category-header">Restaurant Categories</h1>
       <div class="restaurant-category-imgs">
-         <div>
-            <h2>Italian Food</h2>
-            <img src="public/italian-food.jpg">
+         <div class="first-row"> 
+            <div>
+               <h2>Italian Food</h2>
+               <img src="public/italian-food.jpg " class="Resto">
+            </div>
+            <div>
+               <h2>Arabic Food</h2>
+               <img src="public/Arabic.png" class="Resto">
+            </div>
+            <div>
+               <h2>Spanish Food</h2>
+               <img src="public/spanish-food.png" class="Resto">
+            </div>
+            <div>
+               <h2>French Food</h2>
+               <img src="public/French-food.png" class="Resto">
+            </div>
          </div>
-         <div>
-            <h2>Arabic Food</h2>
-            <img src="public/arabic-food.jpg">
-         </div>
-         <div>
-            <h2>Spanish Food</h2>
-            <img src="public/spanish-food.png">
-         </div>
-         <div>
-            <h2>French Food</h2>
-            <img src="public/French-food.png">
-         </div>
-         <div>
-            <h2>Desserts</h2>
-            <img src="public/desert.jpg">
-         </div>
-         <div>
-            <h2>Drinks</h2>
-            <img src="public/drinks.png">
+         <div class="first-row">
+            <div>
+               <h2>Desserts</h2>
+               <img src="public/desert.jpg" class="Resto">
+            </div>
+            <div>
+               <h2>Drinks</h2>
+               <img src="public/drinks.png" class="Resto">
+            </div>
          </div>
       </div>   
       </section>
