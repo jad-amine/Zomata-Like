@@ -3,7 +3,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family:Arial, Helvetica, sans-serif
+   font-family: 'Cherry Swash', cursive;
 }
 
 header {
@@ -15,6 +15,8 @@ header {
    color: white;
 }
 
+
+/* Banner Section */
 .banner{
    display: flex;
    justify-content: space-between;
@@ -35,7 +37,7 @@ header {
 }
 
 .banner button:hover{
-   background-color: #95d048;
+   background-color: #a2e44c;
    cursor:pointer;
 }
 
@@ -43,9 +45,11 @@ header {
    margin-left: 2%;
 }
 
+/* Navbar Section */
 nav{
    display: flex;
    justify-content: space-between;
+   align-items: center;
    margin-top: 45px;
 }
 
@@ -56,11 +60,18 @@ nav{
 nav ul{
    display: flex;
    list-style: none;
+   align-items: center;
 }
 
-nav li {
-   margin: 0px 25px;
-   font-weight: bold;
+nav a {
+   margin: 0px 20px;
+   font-size: larger;
+   color: white;
+   text-decoration: none;  
+}
+
+nav a:hover{
+   border-bottom: 2px dotted white;
 }
 
 #Super_Hungry{
@@ -69,67 +80,106 @@ nav li {
    border: 2px solid white;
    text-decoration: none;
    padding: 15px 35px;
+   transition: all 250ms ease-in-out 0s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: larger;
 }
 
-/*Modifying the super hungry upon hovering*/
-#Super_Hungry:hover {
+#Super_Hungry:hover{
    background-color: white;
-   color:#82b440;
-} 
-
-/*Styling the slogan search by typing or category section*/
-.slogan-want-container{
-   display: flex;
-   flex-direction: column;
-   width: 60%;
+   color: #82b440;
 }
 
+/* Slogan */
 .slogan{
-   padding: 20vh 0vh 2.5vh 0vh;
-   width: 60%;
-   margin-left: 4%;
-   font-size: 48px;
+   margin: 10% 2% 5%;
+   font-size: 30px;;
 }
 
-.want{
-   margin-top: 10vh;
-   font-size: 36px;
+.slogan > p {
+   margin-top: 10px;
+   color: #82b440;
+}
+
+header input{
+   margin-left: 2%;
+}
+
+header .header-search{
+   display: flex;
+   height: 60px;
+}
+
+header input{
+   background-color: transparent;  
+   border: 3px solid white;
+   border-radius: 30px 0px 0px 30px;
+   width: 26%;
+   padding-left: 2%;
+   font-size: large;
+   border-right: 1.5px solid white;
+   font-size: 20px;
+}
+
+header select{
+   font-size: 20px;
+   padding-left: 2%;
+   border: 3px solid white;
+   background-color: transparent;  
    color: white;
-   background-color:rgba(112, 128, 144, 0);
-   border-radius: 30px;
-   border: 2px solid white;
-   text-decoration: none;
-   padding: 10px 10px; 
+   border-right: 1.5px solid white;
+   width: 15%;
 }
 
-.categories{
-  cursor: pointer; 
+.header-search button{
+   border-radius: 0px 50% 50% 0px;
+   background-color: white;
+   border: 3px solid white;
 }
 
-/*Styling the restaurant category section*/
-#restaurant-category{
-   margin-top: 80px;
-}
-#restaurant-category-header{
+/* Section Restaurants */
+.restaurants-title{
    text-align: center;
-   font-size: 48px;
-
+   font-size: larger;
+   color: grey;
 }
 
-.welcome-search{
+.restaurants-categories > h2{
+   margin-top: 20vh;
+   font-size: 40px;
+   color: rgb(65, 66, 79);
+   margin-bottom: 5vh;
+}
+
+.restaurants{
+   margin-top: 100px;
    display: flex;
-   justify-content: center;
-}
-
-
-.Resto{
-   width: 20%;
-   height: 100%;
-   border-radius: 40px;
-}
-
-.first-row{
-   display: flex;
-   margin-top: 30px;
    flex-wrap: wrap;
+   height: 300px;
+   justify-content: space-around;
+   width: 100%;
+}
+
+.restaurants p {
+   margin: 30px auto;
+   text-align: center;
+   font-size: 30px;
+   color: #82b440;
+}
+
+.restaurants div{
+   width: 30%;
+   height: 100%;
+}
+
+.resto{
+   width: 100%;
+   height: 100%;
+   background-color: red;
+   border-radius: 20px;
+}
+
+.resto:hover{
+   transform: scale(1.2);
+   transition: all .5s;
 }

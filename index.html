@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="styles/styles.css">
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,70 +24,49 @@
          <nav>
             <div class="logo">Tasty Logo</div>
             <ul>
-               <li>Home</li>
-               <li>About Us</li>
-               <li>FAQs</li>
-               <li>Fb</li>
-               <li>Inst</li>
-               <li>Twit</li>
-               <li><a href="#" id="Super_Hungry">Super Hungry</a></li>
+               <a href="#">Home</a>
+               <a href="#">About Us</a>
+               <a href="#">FAQs</a>
+               <a href="#">Fb</a>
+               <a href="#">Inst</a>
+               <a href="#">Twit</a>
+               <a><a href="#" id="Super_Hungry">Super Hungry</a></li>
             </ul>
          </nav>
       </div>
-
-      <!--Adding the slogan + search by typing or category-->
-      <section class="slogan-want-container">
-         <h1 class="slogan">Your favorite foods in one place</h1>
-         <div class="welcome-search">
-            <input type="text" class="want" placeholder="I want to make.." >
-            <!--Note: categories must be added-->
-            <select name="food-categories" class="want" id="food-categories">
-               <option value="Burgers">Burgers</option>
-               <option value="Pizza">Pizza</option>
-               <option value="Salads">Salads</option>
-               <option value="Asian">Asian</option>
-               <option value="Drinks">Drinks</option>
-            </select>
-            
-         </div>
-       </section>
+      <div class="slogan">
+         <h2>We saved you a seat !</h2>
+         <h4>We’re always in the mood for food</h4>
+         <p>Beirut finest</p>
+      </div>
+      <div class="header-search">
+         <input type="text" placeholder="Your Favorite Restaurant ..">
+         <select name="food-category" id="food-category">Categories
+            <option value="burgers">Burgers</option>
+            <option value="SeadFood">SeadFood</option>
+            <option value="Pizzas">Pizzas</option>
+            <option value="Lebanese">Lebanese</option>
+            <option value="Sushi">Sushi</option>
+            <option value="Asian">Asian</option>
+            <option value="Drinks">Drinks</option>
+         </select>
+         <button>search</button>
+      </div>
    </header>
 
-      <!--Adding the restuarant category section-->
-      <!--Note: the images to be organized well-->
-   <section id="restaurant-category">
-      <h1 id="restaurant-category-header">Restaurant Categories</h1>
-      <div class="restaurant-category-imgs">
-         <div class="first-row"> 
-            <div>
-               <h2>Italian Food</h2>
-               <img src="public/italian-food.jpg " class="Resto">
-            </div>
-            <div>
-               <h2>Arabic Food</h2>
-               <img src="public/Arabic.png" class="Resto">
-            </div>
-            <div>
-               <h2>Spanish Food</h2>
-               <img src="public/spanish-food.png" class="Resto">
-            </div>
-            <div>
-               <h2>French Food</h2>
-               <img src="public/French-food.png" class="Resto">
-            </div>
-         </div>
-         <div class="first-row">
-            <div>
-               <h2>Desserts</h2>
-               <img src="public/desert.jpg" class="Resto">
-            </div>
-            <div>
-               <h2>Drinks</h2>
-               <img src="public/drinks.png" class="Resto">
-            </div>
-         </div>
-      </div>   
-      </section>
-
+   <section class="restaurants-categories">
+      <h2 class="restaurants-title">Restaurants Categories</h2>
+      <p class="restaurants-title">'What would you like to eat today ?'</p> 
+      <div class="restaurants">
+         <div><p>Italian</p><img class="resto" src="/public/italian-restaurants-marbella.jpg" alt=""></div>
+         <div><p>SeaFood</p><img class="resto" src="/public/SeafoodPlatter_720x.webp" alt=""></div>
+         <div><p>Pizzas</p><img class="resto" src="/public/Screenshot (46).png" alt=""></div>
+      </div>
+      <div class="restaurants">
+         <div><p>Burgers</p><img class="resto" src="/public/Burgers.jpg" alt=""></div>
+         <div><p>Oriental</p><img class="resto" src="./public/Arabicbest.jpg" alt=""></div>
+         <div><p>Deserts</p><img class="resto" src="/public/desert.jpg" alt=""></div> 
+      </div>
+   </section>
 </body>
 </html>
