@@ -185,7 +185,6 @@ header select{
 
 /*Styling the mobile application section*/
 #tasty-mobile-app{
-   margin-top: 20%;
    display: flex;
    margin-top: 15% ;
    background-color: blanchedalmond;
@@ -209,7 +208,7 @@ header select{
 }
 
 .app-img{
-   width: 50%; 
+   width: 300px; 
 }
 
 .app-section h2{
@@ -275,7 +274,56 @@ header select{
 }
 
 .google-play-img,.apple-play-img{
-   width: 30%;
-   margin: 5px;
+   width: 200px;
+   margin: 40px 10px ;
    cursor: pointer;
+}
+
+/*-----------------------------------------
+
+/*Media Query*/
+@media screen and (max-width: 1000px){
+ 
+/*Nav bar*/
+nav ul{
+   display: none;
+}
+
+/*Restaurants categories section*/
+.restaurants{
+   flex-direction: column;
+   flex-wrap: nowrap;
+   margin-top: 0px;
+   height: auto;
+}
+
+.restaurants div{
+   align-self: center;
+}
+
+.restaurants p {
+   padding:10%; 
+}
+
+.restaurants div{
+   width: 50%;
+}
+
+/*Mobile application section*/
+.app-both-section{
+   flex-direction: column;
+}
+
+.application-store{
+   display: block; 
+}
+
+.google-play-img,.apple-play-img{
+   margin: 10px 0px ;
+}
+
+.email-input{
+   font-size: 24px;
+}
+
 }
