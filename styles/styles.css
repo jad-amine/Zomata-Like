@@ -185,6 +185,7 @@ header select{
 
 /*Styling the mobile application section*/
 #tasty-mobile-app{
+   margin-top: 20%;
    display: flex;
    margin-top: 30px ;
    background-color: blanchedalmond;
@@ -247,7 +248,7 @@ header select{
    background-color: rgba(255, 99, 71, 0.895);
 }
 
-#email-label #phone-label{
+#email-label, #phone-label{
    font-size: 24px;
 }
 
@@ -255,6 +256,14 @@ header select{
    margin-top: 5px;
    font-size: 15px;
    color: rgb(36, 36, 36);
+}
+
+#email-btn, #phone-btn{
+   margin: 0px 10px;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
 }
 
 .application-store{
