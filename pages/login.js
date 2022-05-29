@@ -7,9 +7,9 @@ let email_condition = false;
 let password_condtion = false;
 
 // Call the createAccount function upon clicking the create_account button
-create_account.onclick=createAccount;
+create_account.onclick=logIn;
 
-function createAccount(){
+function logIn(){
 
     // Making sure that the border color is black
     for (let i=0; i<inputs.length; i++){
