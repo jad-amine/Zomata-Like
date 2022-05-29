@@ -40,6 +40,27 @@ function createAccount(){
         password.style.borderBlockColor="red";
         alert('Password must be between 6-20 characters, containing at least one numeric digit, one uppercase and one lowercase letter!')
         }
+
+        // If all condition are correct
+        if (email_condition == true && password_condtion == true){
+            
+            // Emptying the fields
+            for (let i=0; i<inputs.length; i++){
+                inputs[i].value="";
+            }
+
+            // Sending post request
+            axios.post("test.php",{
+                username:username,
+                email:email,
+                password:password
+            })
+            .then((response) => {
+                console.log(response);
+            });
+
+            
+        }
     }
     
     //// Else there is/are empty field(s)
