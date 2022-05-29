@@ -365,3 +365,25 @@ nav ul{
    border-radius: 5px;
    margin-top: 10px;
 }
+
+#login-username-input:hover, #login-email-input:hover, #login-password-input:hover,
+#signup-username-input:hover, #signup-email-input:hover, #signup-password-input:hover
+{
+   border-color: cadetblue;
+   border-width: 3px;
+}
+
+#login-create-account, #signup-create-account{
+   width:150px;
+   background-color:cadetblue;
+   color: azure;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+   padding: 5px 0px;
+}
+
+#login-create-account:hover, #signup-create-account:hover{
+   background-color:rgba(95, 158, 160, 0.878);
+}
