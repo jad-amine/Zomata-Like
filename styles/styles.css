@@ -422,3 +422,38 @@ nav ul{
 .admin-pr-banner div, .userprofile-banner div{
    margin-left: 2%;
 }
+
+/*==========User Profile Styles============*/
+.userprofile-row{
+   padding-top:2.5%;
+    text-align: center;
+    background-color: rgba(95, 158, 160, 0.349);
+}
+#userprofile-profile-pic{
+    
+    width: 400px;
+    
+}
+.userprofile-row h3{
+   
+   font-size: 46px;
+}
+.userprofile-row>div{
+    padding: 15px 0px;
+    
+}
+
+#userprofile-create-account{
+    width:150px;
+    background-color:cadetblue;
+    color: azure;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px 0px;
+}
+
+#userprofile-create-account:hover{
+    background-color:rgba(95, 158, 160, 0.878);
+}
