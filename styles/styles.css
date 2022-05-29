@@ -393,3 +393,32 @@ nav ul{
    padding: 10px;
    margin-right: 10px;
 }
+
+/*==========Admin  & User Profile Banner Style============*/
+.admin-pr-banner, .userprofile-banner{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   background-color: #262626;
+   height: 9vh;
+   border-bottom: 2px solid black;
+}
+
+.admin-pr-banner button, .userprofile-banner button{
+   margin: 0% 2%;
+   background-color: #82b440;
+   height: 6vh;
+   width: 9%;
+   border-radius: 8px;
+   color: white;
+   box-shadow: 0px 0px 2px #95d048;
+}
+
+.admin-pr-banner button:hover, .userprofile-banner button:hover{
+   background-color: #a2e44c;
+   cursor:pointer;
+}
+
+.admin-pr-banner div, .userprofile-banner div{
+   margin-left: 2%;
+}
