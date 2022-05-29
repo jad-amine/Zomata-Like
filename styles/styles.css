@@ -352,3 +352,16 @@ nav ul{
    justify-content: center;
    background-color: rgba(95, 158, 160, 0.349);
 }
+
+.login-row>div, .signup-row>div{
+   padding: 15px 0px;
+}
+
+#login-username-input, #login-email-input, #login-password-input,
+#signup-username-input, #signup-email-input, #signup-password-input
+{
+   height: 40px;
+   width: 300px;
+   border-radius: 5px;
+   margin-top: 10px;
+}
