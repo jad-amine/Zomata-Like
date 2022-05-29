@@ -457,3 +457,55 @@ nav ul{
 #userprofile-create-account:hover{
     background-color:rgba(95, 158, 160, 0.878);
 }
+
+/*==========Admin Profile Style============*/
+.admin-pr-row{
+   padding-top:2.5%;
+   text-align: center;
+   background-color: rgba(95, 158, 160, 0.349);
+}
+
+#admin-pr-profile-pic{
+   width: 400px;
+}
+.admin-pr-row h3{
+   font-size: 46px;
+}
+
+.admin-pr-row>div{
+   padding: 15px 0px;
+}
+
+#admin-pr-create-account{
+   width:150px;
+   background-color:cadetblue;
+   color: azure;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+   padding: 5px 0px;
+}
+
+#admin-pr-create-account:hover{
+   background-color:rgba(95, 158, 160, 0.878);
+}
+
+.admin-pr-add-edit{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.admin-pr-add-edit button{
+   width: 30% auto;
+   font-size: 25px;
+   padding: 10px;
+   margin: 10px;
+   background-color:#95d048;
+   cursor: pointer;
+}
+
+.admin-pr-add-edit button:hover{
+   background-color:#95d048c8;
+}
