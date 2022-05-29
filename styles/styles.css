@@ -525,3 +525,80 @@ nav ul{
    font-size: 30px;;
    text-align: center;
 }
+
+/*==========Resto Styles============*/
+#resto-header {
+   background-image: url(../public/R.jfif);
+   height: 60vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+.resto-slogan{
+   color: black;
+   margin: 4% 2%;
+   font-size: 30px;
+   background-color: beige;
+   opacity: 0.5;
+}
+
+.rating-review{
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+.rating-review h3{
+   font-size: 40px;
+}
+
+.rating-review p{
+   font-size: 30px;
+}
+
+.rating{
+   display: flex;
+   justify-content: space-evenly;
+   border-bottom: solid #95d048; 
+}
+
+.review{
+   margin-top: 15px;
+   border-bottom: solid #95d048;
+}
+
+.user-rate button{
+   margin-top: 15px;
+   background-color: #82b440;
+   font-size: 30px;
+   border-radius: 5px;
+   text-align: center;
+   cursor: pointer; 
+}
+
+.user-rate button:hover{
+   background-color: #82b440a4;
+}
+
+.user-review{
+   margin-top: 15px;
+   border-top: solid #95d048;
+}
+
+#review{
+   font-size: 20px;
+   width: 100%;
+}
+
+.user-review button{
+   margin-top: 15px;
+   background-color:darkcyan;
+   font-size: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.user-review button:hover{
+   background-color: rgba(0, 139, 139, 0.641);
+}
