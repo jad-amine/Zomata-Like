@@ -509,3 +509,19 @@ nav ul{
 .admin-pr-add-edit button:hover{
    background-color:#95d048c8;
 }
+
+/*==========Category Styles============*/
+#category-header {
+   background-image: url(../public/footer.jpg);
+   height: 40vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+.category-slogan{
+   margin: 4% 2%;
+   font-size: 30px;;
+   text-align: center;
+}
