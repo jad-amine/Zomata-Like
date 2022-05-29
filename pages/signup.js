@@ -12,5 +12,10 @@ let password_condtion = false;
 create_account.onclick=createAccount;
 
 function createAccount(){
+
+    // Making sure that the border color is black
+    for (let i=0; i<inputs.length; i++){
+        inputs[i].style.borderBlockColor="black";
+    }
     
 }
