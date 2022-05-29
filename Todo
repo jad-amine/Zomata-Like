@@ -16,3 +16,7 @@ Admins:
 shall be able to upload restaurants (name, description, profile_pic, etc)
 monitor reviews (accept / decline)
 display the users registered
+
+
+Create an API for : -Login.php
+                     - register.php
