@@ -387,3 +387,9 @@ nav ul{
 #login-create-account:hover, #signup-create-account:hover{
    background-color:rgba(95, 158, 160, 0.878);
 }
+
+#login-profile-pic, #signup-profile-pic{
+   width: 200px;
+   padding: 10px;
+   margin-right: 10px;
+}
