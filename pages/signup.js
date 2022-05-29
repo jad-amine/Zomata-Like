@@ -40,6 +40,21 @@ function createAccount(){
         password.style.borderBlockColor="red";
         alert('Password must be between 6-20 characters, containing at least one numeric digit, one uppercase and one lowercase letter!')
         }
-    }    
+    }
+    
+    //// Else there is/are empty field(s)
+    else{
+
+        // Coloring the border color red of the empty field
+        for (let i=0; i<inputs.length; i++){
+        if (inputs[i].value == ""){
+            inputs[i].style.borderBlockColor="red";   
+        } 
+        } 
+    
+        // Alert msg when value of title, description, or password is "" empty.
+        alert("You can't leave any field empty");
+
+    }
 
 }
