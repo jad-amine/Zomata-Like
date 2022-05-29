@@ -339,3 +339,16 @@ nav ul{
 }
 
 }
+
+/*==========LogIn Styles + SignUp Styles============*/
+#login-head, #signup-head{
+   text-align: center;
+   padding: 20px 0px;
+   background-color:rgba(95, 158, 160, 0.878);
+}
+
+.login-row, .signup-row{
+   display: flex;
+   justify-content: center;
+   background-color: rgba(95, 158, 160, 0.349);
+}
