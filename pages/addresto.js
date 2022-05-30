@@ -21,17 +21,6 @@ function sendRestoData(){
         console.log(response);
     });
     
-    
-
-    
-   /*
-    console.log("hello")
-    console.log(resto_name.value)
-    console.log(resto_category.value)
-    console.log(resto_location.value)
-    console.log(resto_description.value)
-    console.log(resto_number.value)
-    */
     resto_name.value=""
     resto_category.value=""
     resto_location.value=""
