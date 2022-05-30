@@ -602,3 +602,38 @@ nav ul{
 .user-review button:hover{
    background-color: rgba(0, 139, 139, 0.641);
 }
+
+/*==========Add Resto Style============*/
+.add-resto-row{
+   padding-top:2.5%;
+   text-align: center;
+   background-color: rgba(95, 158, 160, 0.349);
+}
+
+.add-resto-row h3{
+   font-size: 36px;
+}
+
+.add-resto-row>div{
+   padding: 15px 0px;
+}
+
+#add-resto-info, #add-resto-info-btn{
+   width:350px;
+   background-color:rgba(144, 174, 175, 0.66);
+   color: azure;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+   padding: 5px 0px;
+}
+
+#add-resto-info-btn{
+   width:200px;
+   background-color:cadetblue;
+}
+
+#add-resto-info-btn:hover{
+   background-color:rgba(95, 158, 160, 0.878);
+}
