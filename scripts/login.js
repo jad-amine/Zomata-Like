@@ -80,6 +80,8 @@ function send_data(){
             if(response.data.name){
             console.log(response.data.name)
             let id = response.data.user_id;
+            let name = response.data.name;
+            localStorage.setItem('name', name);
             localStorage.setItem('id', id);
             window.location.href = "../index.html";
             } else{
