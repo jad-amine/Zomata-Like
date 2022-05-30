@@ -618,7 +618,7 @@ nav ul{
    padding: 15px 0px;
 }
 
-#add-resto-info, #add-resto-info-btn{
+.add-resto-info, #add-resto-info-btn{
    width:350px;
    background-color:rgba(144, 174, 175, 0.66);
    color: azure;
