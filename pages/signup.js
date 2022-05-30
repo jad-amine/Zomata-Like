@@ -1,5 +1,5 @@
 // Declaring the necessary variables
-let username=document.getElementById("signup-username-input");
+let username = document.getElementById("signup-username-input");
 let email=document.getElementById("signup-email-input");
 let password=document.getElementById("signup-password-input");
 let create_account=document.getElementById("signup-create-account");
@@ -51,9 +51,9 @@ function createAccount(){
 
             // Sending post request
             axios.post("test.php",{
-                username:username,
-                email:email,
-                password:password
+                username : username,
+                email : email,
+                password : password
             })
             .then((response) => {
                 console.log(response);
