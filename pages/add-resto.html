@@ -12,7 +12,29 @@
    <script src="https://kit.fontawesome.com/9d1b4ceae1.js" crossorigin="anonymous"></script>
 </head>
 <body>
+ 
+    <header>
+        <div class="banner">
+        <button onclick="window.location.href='user-profile.html';">Profile</button>
+        <button onclick="window.location.href='../index.html';">Home</button>
+        </div>
+   </header>
 
+    <div class="add-resto-container">
+        <div class="add-resto-row">
+            <h3>Choose resto image</h3>
+            <div><input type="file"/></div>
+
+            <div>
+                <div><input id="add-resto-info" type="text" placeholder="resto name"/></div>
+                <div><input id="add-resto-info" type="text" placeholder="resto category"/></div>
+                <div><input id="add-resto-info" type="text" placeholder="resto location"/></div>
+                <div><input id="add-resto-info" type="text" placeholder="resto description"/></div>
+                <div><input id="add-resto-info" type="number" placeholder="resto number"/></div>
+                <div><input id="add-resto-info-btn" type="button" value="Add Resto"/></div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
