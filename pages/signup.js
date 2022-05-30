@@ -32,22 +32,22 @@ function createAccount(){
         }
 
         //--- To check the password format if strong or no
-        var passw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
-        if(password.value.match(passw)){ 
-        password_condtion=true;
-        }
-        else{ 
-        password.style.borderBlockColor="red";
-        alert('Password must be between 6-20 characters, containing at least one numeric digit, one uppercase and one lowercase letter!')
-        }
+        // var passw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+        // if(password.value.match(passw)){ 
+        // password_condtion=true;
+        // }
+        // else{ 
+        // password.style.borderBlockColor="red";
+        // alert('Password must be between 6-20 characters, containing at least one numeric digit, one uppercase and one lowercase letter!')
+        // }
 
         // If all condition are correct
-        if (email_condition == true && password_condtion == true){
+        if (email_condition == true){
             
-            // Emptying the fields
-            for (let i=0; i<inputs.length; i++){
-                inputs[i].value="";
-            }
+            // // Emptying the fields
+            // for (let i=0; i<inputs.length; i++){
+            //     inputs[i].value="";
+            // }
 
             // Sending post request
             axios.post("test.php",{
