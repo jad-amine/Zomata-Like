@@ -1,0 +1,116 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cherry Swash', cursive;
+}
+/* Banner Section */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262626;
+  height: 9vh;
+  border-bottom: 2px solid black;
+}
+
+.banner button{
+  margin-right: 2%;
+  background-color: #82b440;
+  height: 6vh;
+  width: 9%;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0px 0px 2px #95d048;
+}
+
+.banner button:hover{
+  background-color: #a2e44c;
+  cursor:pointer;
+}
+
+.banner div{
+  margin-left: 2%;
+}
+
+/*==========Category Styles============*/
+
+#category-header {
+  background-image: url(../public/footer.jpg);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.category-slogan{
+  margin: 4% 2%;
+  font-size: 30px;;
+  text-align: center;
+} 
+
+
+
+/*Footer section*/
+.footer{
+  padding: 2.5% 5%;
+  display: flex;
+  background-color:rgb(251, 240, 222);
+  justify-content: space-between;
+}
+.footer-para{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.restaurants{
+  background-color: grey;
+  /* margin-top: 70px; */
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: space-around;
+  width: 90%;
+  margin: 70px auto 150px auto;
+}
+/* Section Restaurants
+.restaurants-title{
+  text-align: center;
+  font-size: larger;
+  color: grey;
+}
+
+.restaurants-categories > h2{
+  margin-top: 20vh;
+  font-size: 40px;
+  color: rgb(65, 66, 79);
+  margin-bottom: 5vh;
+}
+
+
+.restaurants p {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 30px;
+  color: #82b440;
+}
+
+.restaurants div{
+  width: 30%;
+  height: 100%;
+}
+
+.resto{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.resto:hover{
+  transform: scale(1.2);
+  transition: all .5s;
+}
+
