@@ -5,7 +5,11 @@ let login_bttn = document.querySelector("#login-btn");
 
 if(name1){
   sign_up_bttn.innerText = 'welcome ' + name1;
-  login_bttn.style.display = 'none';
+  login_bttn.innerText = 'Log out ';
+  login_bttn.onclick = ()=> {
+    localStorage.clear();
+    location.reload()
+  };
   sign_up_bttn.onclick = () => console.log('you are already logged in');
 };
 

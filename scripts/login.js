@@ -90,7 +90,7 @@ function send_data(){
             window.location.href = "../index.html";
             } else{
                 console.log(response.data);
-                alert('user not found')
+                alert('Incorrect email or password')
             }
         })
         .catch((e) => console.log(e));

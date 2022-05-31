@@ -45,13 +45,18 @@ function createAccount(){
           axios.post('http://localhost/Zomato/Zomato_Back-End/sign_up.php', data)
           .then(function (response) {
             console.log(response.data);
-
-            let id = response.data.user_id;
-            localStorage.setItem("password", response.data.password);
-            let name = response.data.name;
-            localStorage.setItem('id', id);
-            localStorage.setItem('name', name);
-            window.location.href = "../index.html";
+            if(response.data.password){
+              let id = response.data.user_id;
+              localStorage.setItem("password", response.data.password);
+              let name = response.data.name;
+              let email = response.data.email;
+              localStorage.setItem('email', email);
+              localStorage.setItem('id', id);
+              localStorage.setItem('name', name);
+              window.location.href = "../index.html";
+            }else{
+              alert(response.data);
+            };
           })
           .catch(function (e) {
             console.log(e);

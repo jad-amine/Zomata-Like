@@ -39,7 +39,7 @@ function display(res){
     div.innerHTML = `<h4>${raw.name}</h4> <p>${review}</p><p> Rating :${raw.rating_value}</p><hr>`;
     review_section.appendChild(div);
   }
-  rating.innerHTML = `Total Ratings:    ${total_rating/restaurant.length} / 5`
+  rating.innerHTML = `Total Ratings:    ${(total_rating/restaurant.length).toFixed(2)} / 5`
 }
 
 // Add review section
@@ -64,7 +64,7 @@ function send_data(){
 // location.reload()
 
 function check_result(res){
-  if(res = 'Please Sign up'){
+  if(res == 'Please Sign up'){
     alert(res);
     window.location.href = "./signup.html";
   } else{
