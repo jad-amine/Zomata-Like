@@ -1,27 +1,16 @@
-let name1 = localStorage.getItem('name');
-sign_up_bttn = document.querySelector("#signup-btn");
+let name1 = document.querySelector("#resto_name");
+let category = document.querySelector("#resto_category");
 
-if(name1){
-  sign_up_bttn.innerText = 'welcome ' + name1;
-};
+const urlSearchParams = new URLSearchParams(window.location.search);
+var id = Object.fromEntries(urlSearchParams.entries());
+id = id.id;
 
-let italian = document.getElementById("Italian");
-let sea = document.getElementById("SeaFood");
-let pizza = document.getElementById("Pizza");
-let burger = document.getElementById("Burgers");
-let oriental = document.getElementById("Oriental");
-let dessert = document.getElementById("Desert");
+let url = 'http://localhost/Zomato/Zomato_Back-End/get_restaurant.php?id=' + id;
 
-let categories = [italian,sea,pizza,burger,oriental,dessert];
+axios.get(url).then(res => display(res));
 
-categories.forEach(item => {
-  item.addEventListener("click", send_id);
-});
-
-
-function send_id(item){
-  let category = item.srcElement.id;
-  let url = './pages/category.html?category=' + category;
-  window.location.href = url;
+function display(res){
+  let restaurant = res.data;
+  name1.innerHTML = restaurant.restaurant_name;
+  category.innerHTML = restaurant.category
 }
-

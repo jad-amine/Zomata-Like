@@ -9,57 +9,58 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Resto Details</title>
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
    <script src="https://kit.fontawesome.com/9d1b4ceae1.js" crossorigin="anonymous"></script>
 </head>
 <body>
- 
+
    <header id="resto-header">
-        <div class="banner">
-        <button onclick="window.location.href='user-profile.html';">Profile</button>
-        <button onclick="window.location.href='../index.html';">Home</button>
-        </div>
-    
-        <div class="resto-slogan">
-        <h2>Resto Name</h2>
-        <p class="restaurants-title" style="text-align: left; color: black;">'Resto Category'</p> 
-        </div>
-    </header>
+      <div class="banner">
+         <button onclick="window.location.href='user-profile.html';">Profile</button>
+         <button onclick="window.location.href='../index.html';">Home</button>
+      </div>
+      
+      <div class="resto-slogan">
+         <h2 id="resto_name">Resto Name</h2>
+         <p class="restaurants-title" id="resto_category" style="text-align: left; color: black;">'Resto Category'</p> 
+      </div>
+   </header>
 
-    <section class="rating-review">
-       <div class="rating">
-          <h3>Ratings</h3>
-          <!--Stars must be added-->
-          <p>stars</p>
-       </div>
+   <section class="rating-review">
+      <div class="rating">
+         <h3>Ratings</h3>
+         <!--Stars must be added-->
+         <p>stars</p>
+      </div>
 
-       <div class="review">
-          <h3>Reviews</h3>
-          <p>I visit this place regularly just to order the same chicken alfredo platter each time it’s simply amazing ! But this time we also decided to try their burger but honestly it wasn’t my favorite, and the lettuce wasn’t fresh at all. </p>
-       </div>
+      <div class="review">
+         <h3>Reviews</h3>
+         <p>I visit this place regularly just to order the same chicken alfredo platter each time it’s simply amazing ! But this time we also decided to try their burger but honestly it wasn’t my favorite, and the lettuce wasn’t fresh at all. </p>
+      </div>
 
-       <div class="user-rate">
-          <button>Rate your experience</button>
-       </div>
-       
-       <div class="user-review">
-          <h3>Write your review</h3>
-          <textarea id="review-area" rows="8" cols="100"></textarea>
-          <br/>
-          <button>Send review</button>
-       </div>
-    </section>
+      <div class="user-rate">
+         <button>Rate your experience</button>
+      </div>
+      
+      <div class="user-review">
+         <h3>Write your review</h3>
+         <textarea id="review-area" rows="8" cols="100"></textarea>
+         <br/>
+         <button>Send review</button>
+      </div>
+   </section>
 
-    <!--Footer section-->
-    <div class="footer" style="margin-top:5%">
-       <div class="footer-para"><p>You're always welcome..</p></div>
+   <!--Footer section-->
+   <div class="footer" style="margin-top:5%">
+      <div class="footer-para"><p>You're always welcome..</p></div>
 
-       <div id="social-icons">
-          <a href="#"><i class="fa-brands fa-linkedin-in fa-xl" style="color:black"></i></a> 
-          <a href="#"><i class="fa-brands fa-facebook-f fa-xl" style="color:black"></i></a> 
-          <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color:black"></i></a> 
-          <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color:black"></i> </a>
-       </div>
+      <div id="social-icons">
+         <a href="#"><i class="fa-brands fa-linkedin-in fa-xl" style="color:black"></i></a> 
+         <a href="#"><i class="fa-brands fa-facebook-f fa-xl" style="color:black"></i></a> 
+         <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color:black"></i></a> 
+         <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color:black"></i> </a>
+      </div>
    </div>
-
+   <script src="../scripts/resto.js"></script>
 </body>
 </html>
