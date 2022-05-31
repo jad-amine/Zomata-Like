@@ -77,12 +77,16 @@ function send_data(){
 
         axios.post('http://localhost/Zomato/Zomato_Back-End/login.php', data)
         .then(function (response) {
-            if(response.data.name){
-            console.log(response.data.name)
-            let id = response.data.user_id;
-            let name = response.data.name;
+            let response1 = response.data[0]
+            if(response1.name){
+            let id = response1.user_id;
+            let name = response1.name;
+            let email = response1.email;
+            let password = response1.password;
             localStorage.setItem('name', name);
             localStorage.setItem('id', id);
+            localStorage.setItem('email', email);
+            localStorage.setItem('password', password);
             window.location.href = "../index.html";
             } else{
                 console.log(response.data);

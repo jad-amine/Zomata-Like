@@ -1,8 +1,12 @@
 let name1 = localStorage.getItem('name');
-sign_up_bttn = document.querySelector("#signup-btn");
+let sign_up_bttn = document.querySelector("#signup-btn");
+let login_bttn = document.querySelector("#login-btn");
+
 
 if(name1){
   sign_up_bttn.innerText = 'welcome ' + name1;
+  login_bttn.style.display = 'none';
+  sign_up_bttn.onclick = () => console.log('you are already logged in');
 };
 
 let italian = document.getElementById("Italian");

@@ -6,6 +6,8 @@ let description = document.querySelector("#description");
 let location1 = document.querySelector("#location");
 let number = document.querySelector("#number");
 let user_id = localStorage.getItem('id');
+let email = localStorage.getItem('email');
+let password = localStorage.getItem('password');
 let review_section = document.querySelector("#review_section");
 
 
@@ -49,12 +51,23 @@ function send_data(){
   let rating_value = document.querySelector("#rating-value").value;
   let data = new FormData();
   data.append('review_text', review)
-  data.append('user_id', user_id)
+  data.append('email', email)
+  data.append('password', password)
   data.append('restaurant_id', id);
   data.append('rating_value', rating_value);
+  data.append('user_id', user_id);
 
   axios.post('http://localhost/Zomato/Zomato_Back-End/add_review.php',data)
-    .then(e=> location.reload() );
+    .then(event => check_result(event.data) );
 }
 
 // location.reload()
+
+function check_result(res){
+  if(res = 'Please Sign up'){
+    alert(res);
+    window.location.href = "./signup.html";
+  } else{
+    location.reload()
+  }
+}
