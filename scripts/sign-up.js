@@ -46,7 +46,9 @@ function createAccount(){
           .then(function (response) {
             console.log(response.data);
             let id = response.data.user_id;
+            let name = response.data.name;
             localStorage.setItem('id', id);
+            localStorage.setItem('name', name);
             window.location.href = "../index.html";
           })
           .catch(function (e) {
