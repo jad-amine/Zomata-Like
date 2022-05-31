@@ -6,6 +6,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="../styles/styles.css">
    <meta charset="UTF-8">
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>User Profile</title>
@@ -24,11 +25,14 @@
       <div class="userprofile-row">
          <div><img src="../public/logo.png" id="userprofile-profile-pic"></div>
          <div>
-            <div><h3>User username</h3></div>
-            <div><h3>User email</h3></div>
+            <div><h3 id="username"></h3></div>
+            <div><h3 id="email"></h3></div>
             <div><h3> Change password </h3></div>
             <div>
-               <input id="userprofile-create-account" type="button" value="Edit profile"  />
+               <input id="userprofile-create-account" type="button" onclick="change_name()" value="Change Name"  />
+            </div>
+            <div>
+               <input id="userprofile-create-account" type="button" onclick="change_password()" value="Change Password"  />
             </div>
          </div>
       </div>
@@ -46,6 +50,6 @@
        <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color:black"></i> </a>
     </div>
  </div>
-
+ <script src="../scripts/profile.js"></script>p
 </body>
 </html>
