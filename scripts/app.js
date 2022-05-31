@@ -5,12 +5,12 @@ if(name1){
   sign_up_bttn.innerText = 'welcome ' + name1;
 };
 
-let italian = document.getElementById("italian-food")
-let sea = document.getElementById("SeaFood")
-let pizza = document.getElementById("pizza-food")
-let burger = document.getElementById("junky")
-let oriental = document.getElementById("oriental-food")
-let dessert = document.getElementById("deserts-food")
+let italian = document.getElementById("Italian");
+let sea = document.getElementById("SeaFood");
+let pizza = document.getElementById("Pizza");
+let burger = document.getElementById("Burgers");
+let oriental = document.getElementById("Oriental");
+let dessert = document.getElementById("Desert");
 
 let categories = [italian,sea,pizza,burger,oriental,dessert];
 
@@ -21,10 +21,7 @@ categories.forEach(item => {
 
 function send_id(item){
   let category = item.srcElement.id;
-
-  
-  let url = 'http://localhost/ZOMATO/Zomato_Back-End/get_restaurants_by_category.php?category=' + category;
-  axios.get(url)
-    .then(res => console.log(res.data));
+  let url = './pages/category.html?category=' + category;
+  window.location.href = url;
 }
 
