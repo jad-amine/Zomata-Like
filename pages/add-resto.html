@@ -25,15 +25,22 @@
         <div class="add-resto-row">
             <h3>Choose resto image</h3>
             <div><input type="file"/></div>
-
-            <div>
                 <div><input class="add-resto-info" id="resto-name" type="text" placeholder="resto name"/></div>
-                <div><input class="add-resto-info" id="resto-category" type="text" placeholder="resto category"/></div>
+                <div>
+                    <select name="resto-category" class="add-resto-info" id="resto-category">Resto category
+                        <option value="burgers">Burgers</option>
+                        <option value="SeadFood">SeadFood</option>
+                        <option value="Pizzas">Pizzas</option>
+                        <option value="Lebanese">Lebanese</option>
+                        <option value="Sushi">Sushi</option>
+                        <option value="Asian">Asian</option>
+                        <option value="Drinks">Drinks</option>
+                    </select>
+                </div>
                 <div><input class="add-resto-info" id="resto-location" type="text" placeholder="resto location"/></div>
                 <div><input class="add-resto-info" id="resto-description" type="text" placeholder="resto description"/></div>
                 <div><input class="add-resto-info" id="resto-number" type="number" placeholder="resto number"/></div>
                 <div><input id="add-resto-info-btn" type="button" value="Add Resto"/></div>
-            </div>
         </div>
     </div>
 
