@@ -562,10 +562,27 @@ nav ul{
 }
 
 .rating-review{
+   background-color: rgb(222, 222, 222);
    margin-top: 30px;
    margin-left: 20px;
+   border-radius: 20px;
+   padding: 20px;
 }
 
+#send_review{
+   background-color : #95d048;
+   color: white;
+   height: 50px;
+   width: 300px;
+   border: none;
+   font-weight: bolder;
+}
+
+#review-area{
+   border-radius: 20px;
+   padding: 30px;
+   font-size: 25px;
+}
 .rating-review h3{
    font-size: 30px;
 }
@@ -589,18 +606,29 @@ nav ul{
    border-bottom: solid #95d048; 
 }
 
+#rating-value{
+   color: white;
+
+}
+
 .review{
    margin-top: 15px;
    border-bottom: solid #95d048;
 }
 
-.user-rate button{
+.user-rate{
+   margin-top: 40px;
+   text-align: center;
+}
+
+.user-rate select{
    margin-top: 15px;
    background-color: #82b440;
    font-size: 30px;
    border-radius: 5px;
    text-align: center;
    cursor: pointer; 
+   width: 150px;
 }
 
 .user-rate button:hover{
@@ -608,8 +636,10 @@ nav ul{
 }
 
 .user-review{
-   margin-top: 15px;
+   text-align: center;
+   margin-top: 55px;
    border-top: solid #95d048;
+   padding-top: 30px;
 }
 
 #review{

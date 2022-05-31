@@ -10,7 +10,7 @@ let sea = document.getElementById("SeaFood");
 let pizza = document.getElementById("Pizza");
 let burger = document.getElementById("Burgers");
 let oriental = document.getElementById("Oriental");
-let dessert = document.getElementById("Desert");
+let dessert = document.getElementById("Dessert");
 
 let categories = [italian,sea,pizza,burger,oriental,dessert];
 
