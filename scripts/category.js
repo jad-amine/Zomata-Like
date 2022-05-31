@@ -27,7 +27,7 @@ function populate(res){
     let div = document.createElement("div");
     div.classList.add('restaurants');
     // div.className("restaurants");
-    div.innerHTML = `<div><h1>${name}</h1><p>${location},${description},${number}</p></div>` //`<div><p>${name}</p><img class="resto" src="../public/mc.jfif" alt=""></div>`
+    div.innerHTML = `<div><h1>${name}</h1><p>📍<b>Location</b>: ${location} 📜<b>Description:</b>${description}, 📞<b>Number:</b>${number}</p></div>` //`<div><p>${name}</p><img class="resto" src="../public/mc.jfif" alt=""></div>`
     section.appendChild(div);
     // console.log(restaurants[i].restaurant_name);
     
