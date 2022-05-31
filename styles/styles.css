@@ -621,7 +621,7 @@ nav ul{
 .add-resto-row{
    padding-top:2.5%;
    text-align: center;
-   background-color: rgba(95, 158, 160, 0.349);
+   /* background-color: rgba(95, 158, 160, 0.349); */
 }
 
 .add-resto-row h3{
@@ -634,8 +634,8 @@ nav ul{
 
 .add-resto-info, #add-resto-info-btn{
    width:350px;
-   background-color:rgba(144, 174, 175, 0.66);
-   color: azure;
+   background-color:rgb(253, 245, 233);
+   /* color: azure; */
    border-radius: 10px;
    cursor: pointer;
    font-size: 20px;
@@ -645,9 +645,9 @@ nav ul{
 
 #add-resto-info-btn{
    width:200px;
-   background-color:cadetblue;
+   background-color:#82b440;
 }
 
 #add-resto-info-btn:hover{
-   background-color:rgba(95, 158, 160, 0.878);
+   background-color:#a2e44c;
 }
