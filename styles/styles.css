@@ -351,11 +351,24 @@ nav ul{
    display: flex;
    align-items: center;
    flex-direction: column;
-   background-color: rgba(95, 158, 160, 0.349);
+   /*background-color: rgba(95, 158, 160, 0.349);*/
 }
 
 .login-row>div, .signup-row>div{
    padding: 15px 0px;
+}
+
+.fix{
+   font-size: 20px;
+   margin-top: 2.5%;
+   width: 50%;
+   border-style: groove;
+}
+
+.fix>div{
+   align-items: center;
+   text-align-last: center;
+   padding-bottom: 30px;
 }
 
 .login-username-input, .login-email-input, .login-password-input,
@@ -392,7 +405,7 @@ nav ul{
 #login-profile-pic, #signup-profile-pic{
    width: 200px;
    padding: 10px;
-   margin-right: 10px;
+   /*margin-right: 10px;*/
 }
 
 /*==========Admin  & User Profile Banner Style============*/
