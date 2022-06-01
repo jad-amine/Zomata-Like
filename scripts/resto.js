@@ -22,7 +22,7 @@ axios.get(url).then(res => display(res));
 
 //Displaying Restaurant information
 function display(res){
-  console.log(res.data);
+  console.log(res.data, '1');
   let restaurant = res.data;
   name1.innerHTML = restaurant[0].restaurant_name;
   category.innerHTML = restaurant[0].category;

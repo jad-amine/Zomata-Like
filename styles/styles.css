@@ -7,7 +7,7 @@
 }
 
 #landing-header {
-   background-image: url(/public/welcome.jpg);
+   background-image: url(../public/welcome.jpg);
    height: 130vh;
    background-repeat: no-repeat;
    background-position: center;
