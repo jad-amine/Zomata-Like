@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="signup-head">Please sign Up</h1>
+        <div class="signup-row">
+            <div class="fix">
+                <div><img src="../public/R .png" id="signup-profile-pic"></div>
+                <div>
+                    <div>
+                        <h3>Username</h3>
+                        <input id="username" class="signup-username-input" type="text" placeholder="username"  />
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <input id="email" class="signup-email-input" type="email" placeholder="example@gmail.com"  />
+                    </div>
+                    <div>
+                        <h3>Password </h3>
+                        <input id="pass" class="signup-password-input" type="password" placeholder="password"  />
+                    </div>
+                </div>
+            </div>
+            <div><input id="bttn" class="signup-create-account" type="button" value="Create Account"  /></div>
+            <input class="login-account" type="button" value="login" onclick="window.location.href='login.html';"> 
+        </div>
+    </div>
+
+<script src="../scripts/sign-up.js"></script>
+
+</body>
+</html>

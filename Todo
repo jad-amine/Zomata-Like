@@ -1,0 +1,22 @@
+Group Project: You are asked to implement a Full Stack Project using: HTML, CSS. JS, PHP, and SQL. The project is due on Tuesday, May 31st, 2022 at 11:59 PM. Please note that your project should be responsive. You should perform atomic commits, and use Git Branches. If a team member does not commit a lot, he / she will be terminated immediatly.
+Project Description: You are going to implement Zomato (Desktop version). Users must login, signup, check restaurants, rate and review restaurants, and edit their profiles. Admins, on the other hand, shall be able to upload restaurants (name, description, profile_pic, etc), monitor reviews (accept / decline), and display the users registered on the platform.
+
+Users must login, signup, check restaurants, rate and review restaurants, and edit their profiles. Admins, on the other hand, shall be able to upload restaurants (name, description, profile_pic, etc), monitor reviews (accept / decline), and display the users registered on the platform.
+:star-struck:
+4
+
+Burger Menu good for implementation
+
+Users must login,
+signup
+ check restaurants
+rate and review restaurants
+ edit their profiles
+Admins:
+shall be able to upload restaurants (name, description, profile_pic, etc)
+monitor reviews (accept / decline)
+display the users registered
+
+
+Create an API for : -Login.php
+                     - register.php

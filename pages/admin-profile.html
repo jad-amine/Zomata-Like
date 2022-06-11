@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="../styles/styles.css">
+   <meta charset="UTF-8">
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Admin Profile</title>
+   <script src="https://kit.fontawesome.com/9d1b4ceae1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+   <header>
+      <div class="admin-pr-banner">
+         <button onclick="window.location.href='../index.html';">Home</button>
+      </div>
+   </header>
+
+   <div class="admin-pr-container">
+      <div class="admin-pr-row">
+         <div>
+            <img src="../public/logo.png" id="admin-pr-profile-pic">
+         </div>
+         <div>
+            <div><h3>Admin username</h3></div>
+            <div><h3>Admin email</h3></div>
+            <div><h3> Change password </h3></div>
+            <div><input id="admin-pr-create-account" type="button" value="Edit profile"/></div>
+         </div>
+      </div>
+   </div>
+   
+   <div class="admin-pr-add-edit">
+      <button onclick="window.location.href='add-resto.html';">Add New Restaurant</button>
+   </div>
+
+   <!--Footer section-->
+   <div class="footer">
+      <div class="footer-para"><p>You're always welcome..</p></div>
+      <div id="social-icons">
+         <a href="#"><i class="fa-brands fa-linkedin-in fa-xl" style="color:black"></i></a> 
+         <a href="#"><i class="fa-brands fa-facebook-f fa-xl" style="color:black"></i></a> 
+         <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color:black"></i></a> 
+         <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color:black"></i> </a>
+      </div>
+   </div> 
+   <script src="../scripts/admin_profile.js"></script>
+</body>
+</html>

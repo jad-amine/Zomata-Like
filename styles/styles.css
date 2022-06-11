@@ -1,0 +1,711 @@
+/* CSS Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Cherry Swash', cursive;
+}
+
+#landing-header {
+   background-image: url(../public/welcome.jpg);
+   height: 130vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+
+/* Banner Section */
+.banner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #262626;
+   height: 9vh;
+   border-bottom: 2px solid black;
+}
+
+.partner{
+   display: flex;
+   align-items: center;
+}
+
+#sef-icon{
+   width: 50px;
+   height: 50px;
+   margin-right: 20px;
+}
+
+.banner div{
+   display: flex;
+}
+
+.banner button{
+   margin-right: 20px;
+   background-color: #82b440;
+   height: 6vh;
+   width: 100px;
+   border-radius: 8px;
+   color: white;
+   box-shadow: 0px 0px 2px #95d048;
+}
+
+.banner button:hover{
+   background-color: #a2e44c;
+   cursor:pointer;
+}
+
+.banner div{
+   margin-left: 2%;
+}
+
+/* Navbar Section */
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 45px;
+}
+
+.logo{
+   margin-left: 2%;
+}
+
+nav ul{
+   display: flex;
+   list-style: none;
+   align-items: center;
+}
+
+nav a {
+   margin: 0px 20px;
+   font-size: larger;
+   color: white;
+   text-decoration: none;  
+}
+
+nav a:hover{
+   border-bottom: 2px dotted white;
+}
+
+#Super_Hungry{
+   color: white;
+   border-radius: 30px;
+   border: 2px solid white;
+   text-decoration: none;
+   padding: 15px 35px;
+   transition: all 250ms ease-in-out 0s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: larger;
+}
+
+#Super_Hungry:hover{
+   background-color: white;
+   color: #82b440;
+}
+
+/* Slogan */
+.slogan{
+   margin: 10% 2% 5%;
+   font-size: 30px;;
+}
+
+.slogan > p {
+   margin-top: 10px;
+   color: #82b440;
+}
+
+#landing-header input{
+   margin-left: 2%;
+}
+
+#landing-header .header-search{
+   display: flex;
+   height: 60px;
+}
+
+#landing-header input{
+   background-color: transparent;  
+   border: 3px solid white;
+   border-radius: 30px 0px 0px 30px;
+   width: 26%;
+   padding-left: 2%;
+   font-size: large;
+   border-right: 1.5px solid white;
+   font-size: 20px;
+}
+
+#landing-header select{
+   font-size: 20px;
+   padding-left: 2%;
+   border: 3px solid white;
+   background-color: transparent;  
+   color: white;
+   border-right: 1.5px solid white;
+   width: 15%;
+}
+
+.header-search button{
+   border-radius: 0px 50% 50% 0px;
+   background-color: white;
+   border: 3px solid white;
+}
+
+/* Section Restaurants */
+.restaurants-title{
+   text-align: center;
+   font-size: larger;
+   color: grey;
+}
+
+.restaurants-categories > h2{
+   margin-top: 20vh;
+   font-size: 40px;
+   color: rgb(65, 66, 79);
+   margin-bottom: 5vh;
+}
+
+.restaurants{
+   margin-top: 70px;
+   display: flex;
+   flex-wrap: wrap;
+   height: 300px;
+   justify-content: space-around;
+   width: 100%;
+}
+
+.restaurants p {
+   margin: 30px auto;
+   text-align: center;
+   font-size: 30px;
+   color: #82b440;
+}
+
+.restaurants div{
+   width: 30%;
+   height: 100%;
+}
+
+.resto{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+}
+
+.resto:hover{
+   transform: scale(1.2);
+   transition: all .5s;
+}
+
+/*Styling the mobile application section*/
+#tasty-mobile-app{
+   display: flex;
+   margin-top: 15% ;
+   background-color: blanchedalmond;
+}
+#tasty-mobile-app>div{
+   margin-top: 20px;
+}
+
+.app-both-section{
+   display: flex;
+   margin: 0% 20%;
+}
+
+.img-section {
+   flex-basis:50%;
+}
+
+.app-section{
+   flex-basis:50%;
+   margin-top: 30px ;
+}
+
+.app-img{
+   width: 300px; 
+}
+
+.app-section h2{
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 48px;
+   margin-bottom: 10px;
+}
+.link-para{
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+.app-info{
+   display: flex;
+}
+
+.email-input{
+   font-size: 28px;
+   border-radius: 30px;
+   border: 2px solid white;
+   text-decoration: none;
+   padding: 10px 10px;
+   margin: 10px 0px ;
+}
+
+.share-btn{
+   background-color:rgba(255, 99, 71, 0.374);
+   font-size: 20px;
+   border-radius: 15px;
+   padding: 5px 5px;
+   margin: 10px 0px ;
+   
+}
+.share-btn:hover{
+   cursor: pointer;
+   box-shadow: 0px 0px 2px tomato;
+   background-color: rgba(255, 99, 71, 0.895);
+}
+
+#email-label, #phone-label{
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+   font-size: 24px;
+}
+
+.download-para{
+   margin-top: 5px;
+   font-size: 15px;
+   color: rgb(36, 36, 36);
+}
+
+#email-btn, #phone-btn{
+   margin: 0px 10px;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
+}
+
+.application-store{
+   display: flex;
+   margin:5px
+}
+
+.google-play-img,.apple-play-img{
+   width: 200px;
+   margin: 40px 10px ;
+   cursor: pointer;
+}
+
+/*Footer section*/
+.footer{
+   padding: 2.5% 5%;
+   display: flex;
+   background-color:rgb(251, 240, 222);
+   justify-content: space-between;
+}
+.footer-para{
+   font-size: 30px;
+   font-weight: bold;
+}
+
+/*-----------------------------------------
+
+/*Media Query*/
+@media screen and (max-width: 1000px){
+ 
+/*Nav bar*/
+nav ul{
+   display: none;
+}
+.banner button{
+   width: fit-content;
+}
+
+/*Restaurants categories section*/
+.restaurants{
+   flex-direction: column;
+   flex-wrap: nowrap;
+   margin-top: 0px;
+   height: auto;
+}
+
+.restaurants div{
+   align-self: center;
+}
+
+.restaurants p {
+   padding:10%; 
+}
+
+.restaurants div{
+   width: 50%;
+}
+
+/*Mobile application section*/
+.app-both-section{
+   flex-direction: column;
+}
+
+.application-store{
+   display: block; 
+}
+
+.google-play-img,.apple-play-img{
+   margin: 10px 0px ;
+}
+
+.email-input{
+   font-size: 24px;
+}
+
+}
+
+/*==========LogIn Styles + SignUp Styles============*/
+#login-head, #signup-head{
+   text-align: center;
+   padding: 20px 0px;
+   background-color:rgba(95, 158, 160, 0.878);
+}
+
+.login-row, .signup-row{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   /*background-color: rgba(95, 158, 160, 0.349);*/
+}
+
+.login-row>div, .signup-row>div{
+   padding: 15px 0px;
+}
+
+.fix{
+   font-size: 20px;
+   margin-top: 2.5%;
+   width: 50%;
+   border-style: groove;
+}
+
+.fix>div{
+   align-items: center;
+   text-align-last: center;
+   padding-bottom: 30px;
+}
+
+.login-username-input, .login-email-input, .login-password-input,
+.signup-username-input, .signup-email-input, .signup-password-input
+{
+   height: 40px;
+   width: 300px;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+.login-username-input:hover, .login-email-input:hover, .login-password-input:hover,
+.signup-username-input:hover, .signup-email-input:hover, .signup-password-input:hover
+{
+   border-color: cadetblue;
+   border-width: 3px;
+}
+
+.login-account, .signup-create-account{
+   width:150px;
+   background-color:cadetblue;
+   color: azure;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+   padding: 5px 0px;
+}
+
+.login-account:hover, .signup-create-account:hover{
+   background-color:rgba(95, 158, 160, 0.878);
+}
+
+#login-profile-pic, #signup-profile-pic{
+   width: 200px;
+   padding: 10px;
+   /*margin-right: 10px;*/
+}
+
+/*==========Admin  & User Profile Banner Style============*/
+.admin-pr-banner, .userprofile-banner{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   background-color: #262626;
+   height: 9vh;
+   border-bottom: 2px solid black;
+}
+
+.admin-pr-banner button, .userprofile-banner button{
+   margin: 0% 2%;
+   background-color: #82b440;
+   height: 6vh;
+   width: 9%;
+   border-radius: 8px;
+   color: white;
+   box-shadow: 0px 0px 2px #95d048;
+}
+
+.admin-pr-banner button:hover, .userprofile-banner button:hover{
+   background-color: #a2e44c;
+   cursor:pointer;
+}
+
+.admin-pr-banner div, .userprofile-banner div{
+   margin-left: 2%;
+}
+
+/*==========User Profile Styles============*/
+.userprofile-row{
+   padding-top:2.5%;
+    text-align: center;
+    background-color: rgba(95, 158, 160, 0.349);
+}
+#userprofile-profile-pic{
+    
+    width: 400px;
+    
+}
+.userprofile-row h3{
+   
+   font-size: 46px;
+}
+.userprofile-row>div{
+    padding: 15px 0px;
+    
+}
+
+#userprofile-create-account{
+    width:150px;
+    background-color:cadetblue;
+    color: azure;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px 0px;
+}
+
+#userprofile-create-account:hover{
+    background-color:rgba(95, 158, 160, 0.878);
+}
+
+/*==========Admin Profile Style============*/
+.admin-pr-row{
+   padding-top:2.5%;
+   text-align: center;
+   background-color: rgba(95, 158, 160, 0.349);
+}
+
+#admin-pr-profile-pic{
+   width: 400px;
+}
+.admin-pr-row h3{
+   font-size: 46px;
+}
+
+.admin-pr-row>div{
+   padding: 15px 0px;
+}
+
+#admin-pr-create-account{
+   width:150px;
+   background-color:cadetblue;
+   color: azure;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+   padding: 5px 0px;
+}
+
+#admin-pr-create-account:hover{
+   background-color:rgba(95, 158, 160, 0.878);
+}
+
+.admin-pr-add-edit{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.admin-pr-add-edit button{
+   width: 30% auto;
+   font-size: 25px;
+   padding: 10px;
+   margin: 10px;
+   background-color:#95d048;
+   cursor: pointer;
+}
+
+.admin-pr-add-edit button:hover{
+   background-color:#95d048c8;
+}
+
+/*==========Category Styles============*/
+#category-header {
+   background-image: url(../public/footer.jpg);
+   height: 40vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+.category-slogan{
+   margin: 4% 2%;
+   font-size: 30px;;
+   text-align: center;
+}
+
+/*==========Resto Styles============*/
+#resto-header {
+   background-image: url(../public/R.jfif);
+   height: 60vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+.resto-slogan{
+   color: black;
+   margin: 4% 2%;
+   font-size: 30px;
+   background-color: beige;
+   opacity: 0.5;
+}
+
+.rating-review{
+   background-color: rgb(222, 222, 222);
+   margin-top: 30px;
+   margin-left: 20px;
+   border-radius: 20px;
+   padding: 20px;
+}
+
+#send_review{
+   background-color : #95d048;
+   color: white;
+   height: 50px;
+   width: 300px;
+   border: none;
+   font-weight: bolder;
+}
+
+#review-area{
+   border-radius: 20px;
+   padding: 30px;
+   font-size: 25px;
+   width: 80%;
+}
+.rating-review h3{
+   font-size: 30px;
+}
+
+.rating-review #review_section h3{
+   font-size: 40px;
+   text-align: center;
+   font-weight: bolder;
+   margin: 60px;
+}
+
+.rating-review p{
+   font-size: 30px;
+}
+
+.rating-review .rating h3{
+   margin: 40px auto;
+}
+
+.rating{
+   border-bottom: solid #95d048; 
+}
+
+#rating-value{
+   color: white;
+
+}
+
+.review{
+   margin-top: 15px;
+   border-bottom: solid #95d048;
+}
+
+.user-rate{
+   margin-top: 40px;
+   text-align: center;
+}
+
+.user-rate select{
+   margin-top: 15px;
+   background-color: #82b440;
+   font-size: 30px;
+   border-radius: 5px;
+   text-align: center;
+   cursor: pointer; 
+   width: 150px;
+}
+
+.user-rate button:hover{
+   background-color: #82b440a4;
+}
+
+.user-review{
+   text-align: center;
+   margin-top: 55px;
+   border-top: solid #95d048;
+   padding-top: 30px;
+}
+
+#review{
+   font-size: 20px;
+   width: 100%;
+}
+
+.user-review button{
+   margin-top: 15px;
+   background-color:darkcyan;
+   font-size: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.user-review button:hover{
+   background-color: rgba(0, 139, 139, 0.641);
+}
+
+/*==========Add Resto Style============*/
+.add-resto-row{
+   padding-top:2.5%;
+   text-align: center;
+   /* background-color: rgba(95, 158, 160, 0.349); */
+}
+
+.add-resto-row h3{
+   font-size: 36px;
+}
+
+.add-resto-row>div{
+   padding: 15px 0px;
+}
+
+.add-resto-info, #add-resto-info-btn{
+   width:350px;
+   background-color:rgb(253, 245, 233);
+   /* color: azure; */
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+   padding: 5px 0px;
+}
+
+#add-resto-info-btn{
+   width:200px;
+   background-color:#82b440;
+}
+
+#add-resto-info-btn:hover{
+   background-color:#a2e44c;
+}
